@@ -1,6 +1,6 @@
 {
   "name": "@adoyle.me/to-type",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simply get the type of value",
   "keywords": [],
   "main": "src/index.js",
