@@ -1,0 +1,35 @@
+{
+  "name": "@adoyle.me/to-type",
+  "version": "0.0.0",
+  "description": "Simply get the type of value",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "release": "standard-version",
+    "release:as": "standard-version --release-as",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "test": "jest"
+  },
+  "author": "ADoyle <adoyle.h@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/adoyle-h/to-type.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adoyle-h/to-type.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adoyle-h/to-type.js/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-adoyle-style": "^7.0.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6",
+    "standard-version": "^9.3.1"
+  }
+}

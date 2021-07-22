@@ -1,0 +1,10 @@
+root: true
+
+extends:
+  - adoyle-style/node
+
+overrides:
+  - files:
+      - '**/*.test.js'
+      - '**/__mocks__/*.js'
+    extends: adoyle-style/node/testing
